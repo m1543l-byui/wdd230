@@ -5,6 +5,6 @@ document.querySelector('h1').innerHTML = '&copy;' + year;
 
 let currentdate = document.lastModified;
 
-document.querySelector('div').textContent = `Last Updated: currentdate`;
+document.querySelector('div').textContent = `Last Updated: ${currentdate}`;
 
 console.log(year);
