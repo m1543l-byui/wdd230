@@ -1,0 +1,11 @@
+main {
+    display: grid;
+    gap: 1em;
+}
+img {
+    width: 100%;
+}
+
+section {
+    border: solid black .5em;
+}
